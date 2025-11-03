@@ -1,0 +1,36 @@
+/*
+para testar se pegou a importação da fonte
+faça o código abaixo ao jogar var vc deve ver sua font da variável
+a{
+    font-family: var(--font-headline-h1-size);
+} */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-header-item a{
+    text-decoration: none;
+    color: var(--color-secondary-dark);
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+}
+
+.btn-header{
+   text-decoration: none;
+   color: var(--color-secondary-white);
+   padding: 12px 30px;
+   font-size: var(--font-button-size);
+   font-family: var(--font-body);
+   background-color: var(--color-primary-orange);   
+   border-radius: 15px 3px;   
+   
+}

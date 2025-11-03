@@ -1,0 +1,34 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 80px;    
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    font-size: var(--font-headline-h1-size);
+    font-family: var(--font-titl);
+    width: 562px;
+}
+
+.content-main p{
+    font-size: var(--font-body-size);
+    color: var(--color-secondary-l-gray);
+    width: 544px;
+    font-family: var(--font-body);
+    line-height: 30px;
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 20px;
+}
+
+
