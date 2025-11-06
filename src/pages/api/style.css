@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+ 
+.container h1{
+    text-align: center;
+}
+ 
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+ 
+.card-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ababab;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+ 
+.card-grid:hover{
+    transform: scale(1.1);
+}
+ 
+ 
+ 
+.card-grid button{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgb(97, 255, 97);
+    color: #000;
+    border-radius: 10px;
+}
+ 

@@ -9,6 +9,8 @@ import { Sobre } from './pages/Sobre'
 import { Page404 } from './pages/404'
 import { Contador } from './pages/contador'
 import { CardCEP } from './pages/cardCEP'
+import { Api } from './pages/api'
+import { ModalInfo } from './pages/modalInfo'
 
 function App() {
   return (
@@ -17,12 +19,15 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/contato' element={<Contato />} />
         <Route path='/cardapio' element={<Cardapio />} />
+        <Route path='*' element={< Page404 />} />
         <Route path='/produto' element={<Produto />} />
         <Route path='/servico' element={<Servico />} />
         <Route path='/sobre' element={<Sobre />} />
         <Route path='/contador' element={<Contador />} />
         <Route path='/cep' element={<CardCEP />} />
-        <Route path='*' element={< Page404 />} />
+        <Route path='/api' element={<Api />} />
+        <Route path='/modal' element={<ModalInfo />} />
+        
       </Routes>
 
     </BrowserRouter>
