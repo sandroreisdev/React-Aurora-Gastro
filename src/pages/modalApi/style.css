@@ -1,0 +1,17 @@
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    pointer-events: none;
+}
+
+.card-modal{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    width: 60%;
+    height: 400px;
+    pointer-events: all;
+}
